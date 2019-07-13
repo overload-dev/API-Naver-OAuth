@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<!-- Facebook 소셜 로그인 연결 설정 -->
+	 
+<!-- 	    <bean id="connectionFactory"
+	        class="org.springframework.social.facebook.connect.FacebookConnectionFactory">
+	        <constructor-arg value="314352172776734" />
+	        <constructor-arg value="2ded69dd33886f66d161aa7476cac8b0" />
+	    </bean>
+	 
+	    <bean id="oAuth2Parameters"
+	        class="org.springframework.social.oauth2.OAuth2Parameters">
+	        <property name="scope" value="email, user_age_range, user_location" />
+	        <property name="redirectUri" value="https://localhost:8081/ex/join" />
+	    </bean> -->
+</beans>
